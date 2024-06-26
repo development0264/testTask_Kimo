@@ -1,0 +1,14 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "allowJs": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*", "declarations.d.ts"]
+}
